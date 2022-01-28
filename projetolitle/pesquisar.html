@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Moon.jpg">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous" defer></script>
+    <script src="https://momentjs.com/downloads/moment-with-locales.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>ABOUT</title>
+</head>
+<body onload="pesquisarData()">
+    <header>
+        <h1 class="logo">APOD NASA</h1>
+        <h3 onclick="inicio()">INICIO</h3>
+    </header>
+
+    <main class="mainpesquisar">
+
+        <div class="tudoPesquisar">
+            <div class="pesquisar">
+                <!-- <p id="data"> -->
+                <div id="midia"></div><br>
+            </div>
+            <h1><img src="https://apod.nasa.gov/apod/apod.gif" alt="NASA"> Pesquise</h1>
+            <div class="divinput2">
+
+                <label for="data">PESQUISE A DATA DESEJADA</label>
+                <br><br>
+                <input type="date" name="data" class="data">
+                <button class="botao botaoPesquisar" onclick="pesquisarData()">Pesquisar</button>
+                <br>
+            
+                <h3 class="mensagemErro"></h3>
+                <br><br>
+                <p id="titulo"></p><br>
+                <p id="autor"></p><br>
+                <p id="legenda"></p>
+
+            </div>
+
+        </div>
+
+    </main>
+</body>
+</html>
+
+
+
+<button  onclick="pesquisarData()">Pesquisar</button>

@@ -1,0 +1,36 @@
+*{
+    display: block;
+    background: #7474ff;
+    color: white;
+    font-size: 1.4rem;
+    transform: scale(1);
+}
+
+#imgBox{
+    display: flex;
+    align-items: center;
+    width: 100vh;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/* HTML5 display-role reset for older browsers */ 
+footer, header, menu, nav {
+	display: block;
+}
+body {
+	line-height: 2;
+}
+
+
+
+
+
+
+
+
